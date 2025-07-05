@@ -1,8 +1,8 @@
 import axios from "axios";
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 
 
+export function cartService() {
 
-export function cartService(){
-
-   return axios.get("http://localhost:3000/addToCart")
+   return axios.get(`${API_BASE_URL}/addToCart`)
 }

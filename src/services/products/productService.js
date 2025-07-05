@@ -1,7 +1,7 @@
 import axios from "axios";
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 
+export function productsService() {
 
-export function productsService (){
-
-    return axios.get("http://localhost:3000/products")
+    return axios.get(`${API_BASE_URL}/products`)
 }
