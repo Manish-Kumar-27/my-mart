@@ -1,0 +1,40 @@
+.animeImages{
+    width: 1521px;
+    height: 269px;
+    background-color: aqua;
+    margin-bottom: 10px;
+    
+    
+
+    animation-name: changeBgImgs ;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    
+
+}
+
+@keyframes changeBgImgs {
+    
+    0%{
+        background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/d03ae6a885c7b4c4.jpg?q=20");
+    }
+
+    30%{
+        background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/dbd07c8f0d822f95.jpg?q=20");
+    }
+
+    50%{
+        background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/7850424b771b8f98.jpg?q=20");
+    }
+
+    70%{
+        background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/e41f9bd505760b22.jpeg?q=20");
+    }
+
+    100%{
+        background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/1bd9f11edbf77427.jpg?q=20");
+    }
+
+}
