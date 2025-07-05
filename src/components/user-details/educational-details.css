@@ -1,0 +1,73 @@
+.education-details {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    background-color: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: auto;
+
+}
+
+.education-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.education-details table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    /* Important: equal column widths */
+    text-align: left;
+    min-width: 600px;
+    /* For responsive fallback */
+}
+
+.education-details thead {
+    background-color: #007bff;
+    color: white;
+}
+
+.education-details th,
+.education-details td {
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+/* Optional: Zebra striping */
+.education-details tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Optional: Hover effect */
+.education-details tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Optional: Set width to specific columns for better layout */
+.education-details th:nth-child(1),
+.education-details td:nth-child(1) {
+    width: 15%;
+}
+
+.education-details th:nth-child(2),
+.education-details td:nth-child(2) {
+    width: 20%;
+}
+
+.education-details th:nth-child(3),
+.education-details td:nth-child(3) {
+    width: 40%;
+}
+
+.education-details th:nth-child(4),
+.education-details td:nth-child(4) {
+    width: 15%;
+}
