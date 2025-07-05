@@ -1,7 +1,7 @@
 {
     "name": "json-server-backend",
     "scripts": {
-        "start": "json-server db.json --port 8080"
+        "start": "json-server db.json --host 0.0.0.0 --port 8080"
     },
     "dependencies": {
         "json-server": "^0.17.4"
