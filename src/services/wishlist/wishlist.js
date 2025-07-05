@@ -1,7 +1,7 @@
 import axios from "axios";
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 
+export function wishlistService() {
 
-export function wishlistService(){
-
-    return axios.get("http://localhost:3000/wishList")
+    return axios.get(`${API_BASE_URL}/wishList`)
 }
